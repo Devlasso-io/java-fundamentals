@@ -1,6 +1,6 @@
 # Library Management System
 
-A Java console application that simulates a library management system. This project will help you practice Object-Oriented Programming concepts, collections, file handling, and exception management.
+A Java console application that simulates a library management system. This project focuses on in-memory data management and file-based storage.
 
 ## Project Overview
 
@@ -15,10 +15,17 @@ A Java console application that simulates a library management system. This proj
 ### Learning Objectives
 
 - Implementing OOP principles (Inheritance, Encapsulation, Polymorphism, Abstraction)
-- Working with Collections Framework
-- Exception handling
-- File I/O operations
+- Working with Collections Framework (Lists, Sets, Maps)
+- Exception handling and custom exceptions
+- File I/O operations for simple data persistence
 - Date and Time manipulation
+- Memory-efficient programming
+
+### Data Storage
+
+- All data will be maintained in memory using Java collections
+- Optional: Simple file-based storage (text/CSV) for data persistence
+- Note: Database integration is NOT part of this project scope
 
 ## Project Structure
 
@@ -67,11 +74,13 @@ A Java console application that simulates a library management system. This proj
 
 ### Bonus Challenges
 
-1. Implement data persistence using file storage
-2. Add a basic GUI using JavaFX
-3. Implement a reservation system
-4. Add email notification system
-5. Create unit tests
+1. Implement data persistence using text/CSV files
+2. Add a basic GUI using Swing
+3. Implement a reservation system using in-memory queues
+4. Create custom exceptions for library-specific errors
+5. Add search functionality with multiple criteria
+6. Implement book categories and sorting
+7. Add library card barcode generation system
 
 ## Implementation Steps
 

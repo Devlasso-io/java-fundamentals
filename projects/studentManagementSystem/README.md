@@ -1,6 +1,6 @@
 # Student Management System
 
-A Java application for managing student records, courses, and grades. This project focuses on implementing a robust system using Object-Oriented Programming principles and data management.
+A Java console application for managing student records, courses, and grades. This project focuses on implementing a robust system using Object-Oriented Programming principles and in-memory data management.
 
 ## Project Overview
 
@@ -15,10 +15,17 @@ A Java application for managing student records, courses, and grades. This proje
 ### Learning Objectives
 
 - Advanced OOP implementation
-- Data structure usage
-- File handling
+- Data structure usage (ArrayList, HashSet, HashMap)
+- File handling for data persistence
 - Input validation
-- Basic database concepts
+- Exception handling
+- Memory management
+
+### Data Storage
+
+- All data will be stored in memory using appropriate Java collections
+- Optional: Simple file-based storage using text/CSV files for persistence
+- Note: Database integration is NOT part of this project scope
 
 ## Project Structure
 
@@ -80,11 +87,13 @@ A Java application for managing student records, courses, and grades. This proje
 
 ### Bonus Challenges
 
-1. Implement a simple GUI
-2. Add data persistence
-3. Generate PDF reports
-4. Add student attendance tracking
-5. Implement course prerequisites
+1. Implement a simple GUI using Swing
+2. Add data persistence using text/CSV files
+3. Generate formatted text reports
+4. Add student attendance tracking using in-memory storage
+5. Implement course prerequisites logic
+6. Add sorting and filtering capabilities
+7. Implement custom exceptions
 
 ## Implementation Steps
 
